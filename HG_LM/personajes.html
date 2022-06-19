@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Star wars</title>
+        <meta name="description" content="En esta web aprenderás todo lo que necesitas saber y mucho más de tus personages faboritos de Pokemon" />
+        <meta name="author" content=" Isla Peinado, Sergio Camino y Mario Luquero " />
+        <!-- Bootstrap core CSS -->
+        <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> --> 
+        <!-- Additional CSS Files -->
+        <link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css"> 
+        <link type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="css/templatemo-xtra-blog.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="https://logodownload.org/wp-content/uploads/2015/12/star-wars-logo-3-1.png">
+        <!-- script -->
+        <script src="js/personajes.js"></script>
+    </head>
+
+    <body onload="loadPersonajes()">
+         <!-- HEADER -->
+        <header class="tm-header" id="tm-header">
+            <div class="tm-header-wrapper">
+                <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="tm-site-header">
+                   <!-- <img id="Pokemon_Logo" src="https://i.pinimg.com/originals/1a/23/d5/1a23d5620e7bd6e0ce08af115cd29f9f.png" alt=""> -->
+                </div>
+                
+        <!-- NAV -->
+        <nav class="tm-nav" id="tm-nav">            
+            <ul>
+                <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link">
+                    <i class="fas fa-home"></i>
+                    Inicio
+                    </a>
+                </li>
+                <li class="tm-nav-item active"><a href="peliculas.html" class="tm-nav-link">
+                    Peliculas
+                    </a>
+                </li>
+                <li class="tm-nav-item active"><a href="personajes.html" class="tm-nav-link">
+                    Personajes
+                    </a>
+                </li>
+                <li class="tm-nav-item active"><a href="planetas.html" class="tm-nav-link">
+                    Planetas
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        </header>
+        <!-- cierra header -->
+
+        <!-- MAIN -->
+        <div class="container-fluid">
+            <main class="tm-main">            
+                <div class="row tm-row tm-mb-45">
+                    <div class="col-12">
+                        <img src="https://img.unocero.com/2019/08/google-maps-star-wars.jpg" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row tm-row tm-mb-45">   
+                    <p id="data"></p>    
+                </div>
+                <div class="row tm-row tm-mb-40">
+                    <div class="col-12">                    
+                        <table id="tabla" border="1"></table>             
+                    </div>                    
+                    </div>
+                    <div class="col-12">                    
+                        <div class="mb-4">
+                            <p>Toda esta información ha sido administrada por <a href="https://swapi.dev/api/"> pokeapi</a> </p>                          
+                        </div>                    
+                    </div>
+        </div>
+        <!-- cierra main -->
+
+        
+      <!-- FOOTER -->
+      <footer>
+        <hr>
+        <div>
+        <h4>Creadora: Isla Peinado  </h4>
+        <p>Soy alumna de DAM1 de CampusFP</p>
+            <div id="RRSS">
+                <a id="linkrrss1" href="" target="_blank"><img id="linkedin" src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="Logo de LinkedIn" title="Este es el logo de LinkedIn"> LINKEDIN</a>
+                <a id="linkrrss2" href="https://github.com/IslaPeinado" target="_blank"><img id="github" src="https://es.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" alt="Logo de Github" title="Este es el logo de Github">GITHUB</a>
+                <p>CORREO ELECTRONICO: isla.peinado@campusfp.es</p>
+            </div>
+        </div>
+        <div>
+            <h4>Creador: Sergio Camino  </h4>
+            <p>Soy alumno de DAM1 de CampusFP</p>
+                <div id="RRSS">
+                    <a id="linkrrss1" href="https://es.linkedin.com/in/sergio-camino-saiz" target="_blank"><img id="linkedin" src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="Logo de LinkedIn" title="Este es el logo de LinkedIn"> LINKEDIN</a>
+                    <a id="linkrrss2" href="https://github.com/SergioCS" target="_blank"><img id="github" src="https://es.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" alt="Logo de Github" title="Este es el logo de Github">GITHUB</a>
+                    <p>CORREO ELECTRONICO: Sergio.camino@campusfp.es</p>
+                </div>
+            </div>
+            <div>
+                <h4>Creador: Mario Luquero </h4>
+                <p>Soy alumno de DAM1 de CampusFP</p>
+                    <div id="RRSS">
+                        <a id="linkrrss1" href="https://www.linkedin.com/in/mario-luquero-iñiguez/" target="_blank"><img id="linkedin" src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="Logo de LinkedIn" title="Este es el logo de LinkedIn" alt="Logo de LinkedIn" title="Este es el logo de LinkedIn"> LINKEDIN</a>
+                        <a id="linkrrss2" href="https://github.com/MarioLuquero" target="_blank"><img id="github" src="https://es.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" alt="Logo de Github" title="Este es el logo de Github">GITHUB</a>
+                        <p>CORREO ELECTRONICO: mario.luquero@campusfp.es</p>
+                    </div>
+                </div>
+        <div id="Copyright">
+            <p> Copyright © | Creado por Isla Peinado, Sergio Camino y Mario Luquero | Espero que te haya gustado</p>
+        </div>
+        </div>
+    </footer>
+    <!-- cierra footer -->
+</body>
+</div>
+</main>
+</html>
